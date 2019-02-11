@@ -5,7 +5,7 @@ MAINTAINER andre@jeanmaire.nl
 RUN mkdir /data
 
 RUN apk update
-RUN apk add make g++ openssl nodejs nodejs-npm
+RUN apk add make g++ openssl nodejs nodejs-npm python
 
 RUN npm install -g --unsafe-perm bcryptjs
 RUN npm install -g --unsafe-perm node-red
